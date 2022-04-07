@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Pomeranian",
+        "wallpaper": "PomeranianWallpaper",
+        "icon": "Pomeranian"
+    },
+    {
+        "id": 2,
+        "name": "Labrador Retriever",
+        "wallpaper": "Labrador_retrieverWallpaper",
+        "icon": "Labrador_retriever"
+    },
+    {
+        "id": 3,
+        "name": "German Sheperd",
+        "wallpaper": "GermanSheperdWallpaper",
+        "icon": "GermanSheperd"
+    },
+    {
+        "id": 4,
+        "name": "Chihuahua",
+        "wallpaper": "ChihuahuaWallpaper",
+        "icon": "Chihuahua"
+    },
+    {
+        "id": 5,
+        "name": "Bulldog",
+        "wallpaper": "BulldogWallpaper",
+        "icon": "Bulldog"
+    }
+    ]
