@@ -40,10 +40,9 @@ struct ResultView: View {
                                 .foregroundColor(.white)
                         )
                         .shadow(radius: 5)
-                    //                    .position(x: 90, y: 510)
                         .offset(x: -100, y: 120)
                     Button{
-                        //                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                       
                     } label: {
                         Text(" \(Image(systemName: "square.and.arrow.up"))    SHARE")
                             .fontWeight(.medium)
@@ -100,18 +99,17 @@ struct ResultView: View {
               }
               
         let output = try? model.prediction(image: buffer)
-        // qui è dove tenta di fare la prediction, e lo fa passandogli buffer perché la prediction di questo modello vuole un immagine Pixel Buffer di 224 * 224
+  
         
         if let output = output {
-                // 1 questo ordinamento si riferisce alla probabilità, se ho capito bene, $0.1 sarebbe stringa.double che è appunto dove è contenuta la probabilità, la sintassi non mi è chiarissima però è questo quello che fa mette prima la probabilità maggiore
+           
                 let results = output.classLabelProbs.sorted { $0.1 > $1.1 }
-                // 2 qui stiamo assegnando a result, i valori che stanno nel dizionario, in formato stringa, inoltre abbiamo formattato in modo che la percentuale mostri le prime due cifre decimali e credo che separator metta due daccapo a tutti i result
+               
             
 
             
             let result = results.map { (key, value) in
                 return "\(key) = \(String(format: "%.2f", value * 100))%"
-                // restituisce una stringa che viene salvata in result
                 }.joined(separator: "\n")
             
             self.arrayKeys = results.map { (key, value) in
@@ -121,13 +119,13 @@ struct ResultView: View {
             self.arrayValues = results.map { (key, value) in
                 return "\(String(format: "%.2f", value * 100))%"
                 }
-                // 3 quest'ultima cosa serve solo per refreshare l'interfaccia, e mantenere il valore aggiornato, infatti classification label è di tipo @State var, stiamo semplicemente passando il valore da una parte all'altra per forzare il refresh
+			
                 self.classificationLabel = result
     
     }
     }
     
-    //devo testarla ancora
+   
     private func checkDog () {
         for number in 0...dogStore.dogs.count - 1 {
             print("VALORE IN ARRAY DI CANI          VALORE KEY")
