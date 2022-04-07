@@ -1,4 +1,4 @@
-# Dog-Scanner-Remake
+# Dog Scanner Remake
 
 An iOS app that uses CoreML to recognize dog breeds.
 
