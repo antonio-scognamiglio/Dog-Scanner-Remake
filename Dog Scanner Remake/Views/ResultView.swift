@@ -85,7 +85,7 @@ struct ResultView: View {
             classifyImage()
             checkDog()
         })
-            
+		.navigationBarTitleDisplayMode(.inline)
     }
     
     

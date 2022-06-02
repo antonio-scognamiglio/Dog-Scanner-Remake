@@ -64,9 +64,10 @@ struct ContentView: View {
 			}
 			.navigationBarTitle("Dog Scanner")
 		}
-		.sheet(isPresented: $showImagePicker) {
+		.fullScreenCover(isPresented: $showImagePicker) {
 			ImagePicker(image: self.$image, isShown: self.$showImagePicker, sourceType: self.sourceType)
 				.environmentObject(dogStore)
+				.ignoresSafeArea(.container, edges: .vertical)
 		}
 	}
 }
