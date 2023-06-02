@@ -9,9 +9,9 @@ It is a small iOS project that uses `CoreML` and `ImagePicker`. You can either s
 ---
 ## Screenshots
 <p>
-<img width="25%" alt="ChoosePicture" src="https://github.com/antonio-scognamiglio/Dog-Scanner-Remake/assets/92535079/7e779629-fd52-4a08-8220-8859343bf7b9">
+<img width="30%" alt="ChoosePicture" src="https://github.com/antonio-scognamiglio/Dog-Scanner-Remake/assets/92535079/7e779629-fd52-4a08-8220-8859343bf7b9">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img width="25%" alt="OutCome" src="https://github.com/antonio-scognamiglio/Dog-Scanner-Remake/assets/92535079/84a7070c-6693-4e51-92bb-fb1f30a69f7f)">
+<img width="30%" alt="OutCome" src="https://github.com/antonio-scognamiglio/Dog-Scanner-Remake/assets/92535079/84a7070c-6693-4e51-92bb-fb1f30a69f7f)">
 </p>
 
 ---
