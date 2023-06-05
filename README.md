@@ -2,6 +2,7 @@
 [![](https://img.shields.io/badge/iOS-15.0-orange)](#)
 [![](https://img.shields.io/badge/Platforms-iPhone-blue)](#)
 [![](https://img.shields.io/badge/Category-Utility-brightgreen)](#)
+[![](https://img.shields.io/badge/Technologies-SwiftUI%20%7C%20ImagePicker%20%7C%20CoreML-yellow)](#)
 
 ---
 It is a small iOS project that uses `CoreML` and `ImagePicker`. You can either select a photo from the gallery or take a new one with the camera, then the chosen photo will be analyzed and compared with the data in the `StudentDogModel`, finally the result will be shown indicating the possible dog breeds and its accuracy percentages.
